@@ -1,0 +1,12 @@
+:root {
+  --light-dark-blue: hsla(234, 25%, 52%, 1);
+  --dark-blue: hsla(234, 53%, 16%, 1);
+  --almost-pure-grey: hsla(233, 10%, 56%, 1);
+  --bright-pink: hsla(341, 92%, 62%, 1);
+  --very-light-pink: hsla(341, 100%, 83%, 1);
+  --pure-white: hsla(0, 0%, 100%, 1);
+  --pinkish-linear-gradient-start: hsla(322,87,55,1);
+  --pinkish-linear-gradient-end: hsla(13,100,64,1);
+  --purplish-linear-gradient-start: hsla(237,100,64,1);
+  --purplish-linear-gradient-end: hsla(322,87,55,1);
+}
