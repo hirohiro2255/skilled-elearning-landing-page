@@ -1,6 +1,4 @@
 @import url("header.css");
-@import url("upper-hero.css");
-@import url("bottom-hero.css");
 
 :root {
   --light-dark-blue: hsla(234, 25%, 52%, 1);
@@ -9,19 +7,25 @@
   --bright-pink: hsla(341, 92%, 62%, 1);
   --very-light-pink: hsla(341, 100%, 83%, 1);
   --pure-white: hsla(0, 0%, 100%, 1);
-  --pinkish-linear-gradient-start: hsla(322,87,55,1);
-  --pinkish-linear-gradient-end: hsla(13,100,64,1);
+  --pinkish-linear-gradient-end: hsla(322,87,55,1);
+  --pinkish-linear-gradient-start: hsla(13,100,64,1);
   --purplish-linear-gradient-start: hsla(237,100,64,1);
   --purplish-linear-gradient-end: hsla(322,87,55,1);
-  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, p, ul {
   margin: 0;
 }
 
+* {
+  /* For Safari to use clamp function */
+  min-height: 0vw;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 body {
   min-width: 360px;
+  position: relative;
 }
 
 

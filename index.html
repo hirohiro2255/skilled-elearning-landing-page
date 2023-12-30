@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/sanitize.css" />
     <link rel="stylesheet" href="css/defs.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hero.css" />
   </head>
   <body>
     <header class="header">
@@ -31,11 +32,51 @@
         <a href="#" class="header-button button">Get Started</a>
       </div>
     </header>
-    <main>
-      <div>
-        <section>
-          <h1>Get Started Maximize skill, minimize budget</h1>
-          <img src="assets/image-hero-desktop.png" alt="" />
+    <main class="hero">
+      <div class="hero-wrapper">
+        <section class="hero-section">
+          <div class="hero-title-group">
+            <h1 class="hero-heading">Maximize skill, minimize budget</h1>
+            <p class="hero-paragraph">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+            <div>
+              <a class="hero-button" href="#">Get Started</a>
+            </div>
+          </div>
+          <picture>
+            <source
+              media="(max-width: 428px)"
+              srcset="assets/image-hero-mobile.webp 435w"
+              sizes="100vw"
+            />
+            <source
+              media="(max-width: 960px)"
+              srcset="assets/image-hero-tablet.webp 695w"
+              sizes="100vw"
+            />
+            <img
+              src="assets/image-hero-desktop.webp"
+              class="hero-image"
+              alt="hero-image"
+            />
+          </picture>
+
+          <!--
+            <source media="(max-width:400px)" srcset="sp.jpg 400w" sizes="100vw">
+  <source media="(max-width:600px)" srcset="tab.jpg 600w" sizes="100vw">
+  <img src="pc.jpg">
+           -->
+          <!-- <img
+            srcset="
+              assets/images/image-hero-mobile.webp   435w,
+              assets/images/image-hero-tablet.webp   695w,
+              assets/images/image-hero-desktop.webp 1046w
+            "
+            src="assets/image-hero-desktop.png"
+            alt=""
+          /> -->
         </section>
       </div>
     </main>

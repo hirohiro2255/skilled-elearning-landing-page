@@ -1,0 +1,79 @@
+.hero {
+  padding-top: 45px;
+}
+
+.hero-wrapper {
+  width: min(91.47%, 1110px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.hero-heading {
+  font-size: clamp(2.5rem, 2.1479rem + 1.5023vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.26;
+  color: var(--dark-blue);
+}
+
+.hero-paragraph {
+  font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
+  font-weight: 500;
+  line-height: 1.625;
+  color: var(--almost-pure-grey);
+  background-color: linear-gradient(var(--pinkish-linear-gradient-start), var(--pinkish-linear-gradient-end));
+}
+
+.hero-button {
+  text-decoration: none;
+  background: linear-gradient(#ff6f48, #f02aa6);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 37px;
+  padding-left: 37px;
+  border-radius: 31.5px;
+  font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
+  color: var(--pure-white);
+  font-weight: 700;
+  line-height: 1.62;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+
+
+/* Tablet */
+@media (768px <= width < 960px) {
+  .hero-image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+
+/* Desktop */
+@media (960px <= width <= 1440px) {
+  .hero-image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
