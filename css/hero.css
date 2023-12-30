@@ -1,5 +1,6 @@
 .hero {
   padding-top: 45px;
+  padding-bottom: 80px;
 }
 
 .hero-wrapper {
@@ -56,6 +57,10 @@
 
 .hero-image {
   width: 100%;
+}
+
+.hero-bottom-section {
+  padding-top: 210px;
 }
 
 .course-list {
@@ -151,6 +156,19 @@
     /* margin-top: -225px;
     margin-right: -300px; */
   }
+
+  .course-list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 56px;
+  }
+
+  .course-description {
+    padding-top: 56px;
+    padding-right: 26px;
+    padding-left: 26px;
+  }
 }
 
 
@@ -197,6 +215,47 @@
     width: 100%;
     /* margin-top: -225px;
     margin-right: -300px; */
+  }
+
+  .hero-bottom-section {
+    padding-top: 250px;
+  }
+
+  .course-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 80px;
+  }
+
+  .course-description {
+    border-radius: 15px;
+    padding-top: 64px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 138px;
+  }
+
+  .course-list-sub-heading {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+
+  .course-list-item {
+    border-radius: 15px;
+    padding-top: 64px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .course-list-title {
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+  }
+
+  .course-list-description {
+    margin-bottom: 24px;
+    /* font-size: 1.1rem; */
   }
 }
 
