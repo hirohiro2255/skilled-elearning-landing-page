@@ -1,4 +1,5 @@
 @import url("header.css");
+@import url("footer.css");
 
 :root {
   --light-dark-blue: hsla(234, 25%, 52%, 1);
