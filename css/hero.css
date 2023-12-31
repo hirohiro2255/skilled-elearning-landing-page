@@ -1,6 +1,8 @@
 .hero {
-  padding-top: 45px;
+  padding-top: 16px;
   padding-bottom: 80px;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-wrapper {
@@ -126,18 +128,19 @@
 @media (768px <= width < 960px) {
 
   body {
-    /* position: relative; */
+
   }
 
   .hero {
-    padding-top: 99px;
+    /* padding-top: 99px; */
+    padding-top: 24px;
   }
 
   .hero-section {
     display: flex;
     flex-direction: row;
     gap: 10.95px;
-    position: relative;
+    /* position: relative; */
   }
 
   .hero-title-group {
@@ -149,8 +152,8 @@
     z-index: -1;
     /* position: relative; */
     position: absolute;
-    top: -84%;
-    right: -45%;
+    top: -3%;
+    right: -35%;
     width: 640px;
     height: 640px;
     /* margin-top: -225px;
@@ -183,14 +186,15 @@
   } */
 
   .hero {
-    padding-top: 99px;
+    /* padding-top: 99px; */
+    padding-top: 29px;
   }
 
   .hero-section {
     display: flex;
     flex-direction: row;
     gap: 10.95px;
-    position: relative;
+    /* position: relative; */
   }
 
   .hero-title-group {
@@ -210,8 +214,8 @@
     z-index: -1;
     /* position: relative; */
     position: absolute;
-    top: -420px;
-    right: -550px;
+    top: -18%;
+    /* right: -550px; */
     width: 100%;
     /* margin-top: -225px;
     margin-right: -300px; */
